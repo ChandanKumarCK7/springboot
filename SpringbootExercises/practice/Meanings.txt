@@ -1,0 +1,47 @@
+
+
+
+
+// dependency injection can be achieved through IOC and IOC says that a framework such as spring will provide dependencies required
+so that the user need not worry about creating those dependencies or objects
+
+IOC COntainer usually is responsible for creating configuring and managing the bean lifecycle once created the beans can be stored in
+either the beanfactory or application context
+
+Bean Factory            vs     Application Context
+
+BeanFactory - provides lazy initialization of beans means once when there is a request to create a bean of a class it will create spring bean
+Application Context - Eager Initializtion of beans will be done by this meaning as soon as the applicaton starts up the spring framework
+will store the beans in application context. also, Application context extends the BeanFactory hence, all the features supported by the
+BeanFactory will be inherited by Application Context also internalization and some advance features of spring framework will be
+supported by the Application Context.
+
+usually a pojo like can be considered as a java bean but it also follows some design patterns, they will be used in frameworks such as spring
+
+
+so basically a normal bean can be consider as an object hence, in configuration class we can have multiple objects but if the
+@Bean will be kept on top of pojo then class cant be an object and wont be making sense
+
+@Bean usually tells spring that u are defining an object. and that can be inside a configuration class
+
+example5 - @Component is a stereotype annotation and if we keep that on top of POJO then that will also create bean of that POJO to the spring context
+
+example5_1111 - if u want to make sure multiple objects of same type have to be created then create subclasses of that main class
+hence, u will be able to create multiple beans using @Component without defining in @Configuration
+
+example6 - @Predestroy - add the annotation ontop of any method that has to be executed before removing the bean from the spring application context
+ @PostConstrcut - add the annotation on top of an method so that some functionality can be just invoke after creation of bean
+
+How to create an Object of ApplicationContext -
+var context = new AnnotationConfigApplicationContext(Configuration.class);
+
+example7 - context.registerBean() allows u to create bean dynamically
+
+example8 - to use a context with beans created from XML file
+use -
+
+var context = new ClassPathXmlApplicationContext("beans.xml");
+
+Stereotype annotations - by default any stereotype annotation will be created with singletone scope means there will be only one instance
+and that will be shared across
+

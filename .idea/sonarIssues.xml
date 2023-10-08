@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring/example1/src/main/java/com/example/beans/Vehicle.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring/example1/src/main/java/com/example/config/ProjectConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring/example1/src/main/java/com/example/main/Example1.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring/example5/src/main/java/com/example/main/Example5.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring/example5/src_1/main/java/com/example/main/Example5.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring/example5_How_to_Create_Multiple_Beans_With_@Comp/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring/example5_How_to_Create_Multiple_Beans_With_@Comp/src/main/java/com/example/beans/Ferrari.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring/example5_How_to_Create_Multiple_Beans_With_@Comp/src/main/java/com/example/beans/Toyota.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring/example5_How_to_Create_Multiple_Beans_With_@Comp/src/main/java/com/example/main/Example5.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring/example5_How_to_Create_Multiple_Beans_With_@Comp/src/main/java/com/example/main/Example5_1111.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring/example5_How_to_Create_Multiple_Beans_With_@Component/src/main/java/com/example/main/Example5.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring/example_15/src/main/java/com/example/main/Example15.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/BeanExample/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E10_Autowire/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E10_Autowire/src/main/java/com/example/beans/Ferrari.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E10_Autowire/src/main/java/com/example/beans/Person.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E10_Autowire/src/main/java/com/example/beans/Vehicle.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E10_Autowire/src/main/java/com/example/config/ProjectConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E10_Autowire/src/main/java/com/example/main/Example11.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E13_autowire_auto_of_MultipleRoutes/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E13_autowire_auto_of_MultipleRoutes/src/main/java/com/example/Services/VehicleServices.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E13_autowire_auto_of_MultipleRoutes/src/main/java/com/example/beans/Ferrari.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E13_autowire_auto_of_MultipleRoutes/src/main/java/com/example/beans/Person.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E13_autowire_auto_of_MultipleRoutes/src/main/java/com/example/beans/Toyota.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E13_autowire_auto_of_MultipleRoutes/src/main/java/com/example/config/ProjectConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E13_autowire_auto_of_MultipleRoutes/src/main/java/com/example/implementation/MichelinTypres.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E13_autowire_auto_of_MultipleRoutes/src/main/java/com/example/implementation/NormalTypres.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E13_autowire_auto_of_MultipleRoutes/src/main/java/com/example/interace/Tyres.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E13_autowire_auto_of_MultipleRoutes/src/main/java/com/example/main/Example11.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E13_autowire_auto_of_MultipleRoutes/src/main/java/com/example/main/Example13.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E9_Wiring Beans/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E9_Wiring Beans/src/main/java/com/example/beans/Ferrari.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E9_Wiring Beans/src/main/java/com/example/main/Example5.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E9_WiringBeans/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E9_WiringBeans/src/main/java/com/example/beans/Ferrari.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E9_WiringBeans/src/main/java/com/example/beans/Person.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E9_WiringBeans/src/main/java/com/example/beans/Toyota.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E9_WiringBeans/src/main/java/com/example/beans/Vehicle.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E9_WiringBeans/src/main/java/com/example/config/ProjectConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E9_WiringBeans/src/main/java/com/example/config/ProjectConfig_WireFromTheFunctions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E9_WiringBeans/src/main/java/com/example/main/E9.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/E9_WiringBeans/src/main/java/com/example/main/Example5.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SpringbootExercises/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SpringbootExercises/practice/DependancyInjection.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SpringbootExercises/practice/Meanings.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SpringbootExercises/practice/Meanings.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SpringbootExercises/practice/NoUniqueBeanException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SpringbootExercises/practice/WithoutDependancyInjection.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SpringbootExercises/practice/temp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SpringbootExercises/src/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Wiring Beans/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/t1111111/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/t1111111111/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/temp/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/temp/src/main/java/com/example/beans/Ferrari.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/temp/src/main/java/com/example/beans/Toyota.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/temp/src/main/java/com/example/beans/Vehicle.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/temp/src/main/java/com/example/main/Example5.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/untitled/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/practice/UNTOUCH/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/preferences/sys-pref-spring-boot/src/main/resources/db/changelog/liquibase_sys_pref_23_12.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/tempSpring/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/web-map/map-service-impl/src/main/java/com/alcatel_lucent/oms1350/impl/map/OmsMapServiceDataMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/web-map/map-ws/src/main/java/com/alcatel_lucent/networks/map/controller/MapServiceController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/web-map/web-map-common/src/main/java/com/alcatel_lucent/networks/map/model/SegmentInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

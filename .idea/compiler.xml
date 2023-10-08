@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringbootExercises" />
+        <module name="temp" />
+        <module name="E10_Autowire" />
+        <module name="E13_autowire_auto_of_MultipleRoutes" />
+        <module name="E9_WiringBeans" />
+        <module name="t1111111" />
+        <module name="t1111111111" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BeanExample" target="17" />
+      <module name="E10_Autowire" target="16" />
+      <module name="E13_autowire_auto_of_MultipleRoutes" target="16" />
+      <module name="E9_Wiring Beans" target="16" />
+      <module name="E9_WiringBeans" target="16" />
+      <module name="SpringbootExercises" target="16" />
+      <module name="t1111111" target="16" />
+      <module name="t1111111111" target="16" />
+      <module name="temp" target="16" />
+      <module name="untitled" target="16" />
+      <module name="Wiring Beans" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

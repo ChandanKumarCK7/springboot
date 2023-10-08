@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/SpringbootExercises/pom.xml" />
+        <option value="$PROJECT_DIR$/temp/pom.xml" />
+        <option value="$PROJECT_DIR$/t1111111/pom.xml" />
+        <option value="$PROJECT_DIR$/Wiring Beans/pom.xml" />
+        <option value="$PROJECT_DIR$/t1111111111/pom.xml" />
+        <option value="$PROJECT_DIR$/E9_WiringBeans/pom.xml" />
+        <option value="$PROJECT_DIR$/E10_Autowire/pom.xml" />
+        <option value="$PROJECT_DIR$/E13_autowire_auto_of_MultipleRoutes/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="16 (2)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>
