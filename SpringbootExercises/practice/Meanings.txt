@@ -81,6 +81,7 @@ var context = new ClassPathXmlApplicationContext("beans.xml");
 
     reduces XML base configuration for beans - beans can be configured directly based on stereotype annotations by spring boot
 
+
 20. **What is Spring Boot Starter?**
 
     spring boot starter is a pre-configured set of dependencies provided by spring boot that makes quick development of application
@@ -90,6 +91,10 @@ var context = new ClassPathXmlApplicationContext("beans.xml");
     spring-boot-starter-data-jpa: For data access with JPA.
     spring-boot-starter-security: For adding security features.
     spring-boot-starter-actuator: For production monitoring and management.
+
+
+
+
 
 
 Stereotype annotations - by default any stereotype annotation will be created with singletone scope means there will be only one instance
