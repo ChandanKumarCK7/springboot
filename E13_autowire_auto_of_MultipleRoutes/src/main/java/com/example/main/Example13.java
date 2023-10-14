@@ -55,7 +55,7 @@ public class Example13 {
         Person person1 = new Person();
         person1.setName("Beta");
         person1.setVehicle(vehicle1);
-        person1.setServices(context.getBean("VehicleServices1", VehicleServices.class));
+        person1.setServices(context.getBean("VehicleServices", VehicleServices.class));
 
 //        person1.setServices();
 //        person1.setVehicle(vehicle1);

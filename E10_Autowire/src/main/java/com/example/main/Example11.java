@@ -16,5 +16,6 @@ public class Example11 {
         System.out.println("Vehicle name from Spring Context is: " + vehicle.getName());
         System.out.println("Vehicle that Person own is: " + person.getVehicle());
 
+        context.removeBeanDefinition();
     }
 }

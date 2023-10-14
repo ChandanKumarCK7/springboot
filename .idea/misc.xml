@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/E9_WiringBeans/pom.xml" />
         <option value="$PROJECT_DIR$/E10_Autowire/pom.xml" />
         <option value="$PROJECT_DIR$/E13_autowire_auto_of_MultipleRoutes/pom.xml" />
+        <option value="$PROJECT_DIR$/e25example/pom.xml" />
+        <option value="$PROJECT_DIR$/e41h2withspringjpa/pom.xml" />
       </list>
     </option>
   </component>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,7 +10,9 @@
         <module name="SpringbootExercises" />
         <module name="temp" />
         <module name="E10_Autowire" />
+        <module name="e41h2withspringjpa" />
         <module name="E13_autowire_auto_of_MultipleRoutes" />
+        <module name="e25example" />
         <module name="E9_WiringBeans" />
         <module name="t1111111" />
         <module name="t1111111111" />
@@ -19,6 +22,8 @@
       <module name="BeanExample" target="17" />
       <module name="E10_Autowire" target="16" />
       <module name="E13_autowire_auto_of_MultipleRoutes" target="16" />
+      <module name="e25example" target="16" />
+      <module name="e41h2withspringjpa" target="16" />
       <module name="E9_Wiring Beans" target="16" />
       <module name="E9_WiringBeans" target="16" />
       <module name="SpringbootExercises" target="16" />
@@ -28,5 +33,11 @@
       <module name="untitled" target="16" />
       <module name="Wiring Beans" target="16" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="e25example" options="-parameters" />
+      <module name="e41h2withspringjpa" options="-parameters" />
+    </option>
   </component>
 </project>

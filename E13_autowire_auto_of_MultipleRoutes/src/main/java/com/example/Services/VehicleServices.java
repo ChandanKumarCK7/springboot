@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 import com.example.beans.Person;
 
-@Component
+@Component("VehicleServices")
 @Scope(BeanDefinition.SCOPE_SINGLETON)
 public class VehicleServices {
 

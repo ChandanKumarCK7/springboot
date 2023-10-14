@@ -68,6 +68,51 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../spring/example_25/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring/example_25/src/main/java/com/eazybytes/eazyschool/EazyschoolApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring/example_25/src/main/java/com/eazybytes/eazyschool/config/WebConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring/example_25/src/main/java/com/eazybytes/eazyschool/controller/ContactController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring/example_25/src/main/java/com/eazybytes/eazyschool/controller/HolidaysController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring/example_25/src/main/java/com/eazybytes/eazyschool/model/Contact.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring/example_25/src/main/java/com/eazybytes/eazyschool/model/Holiday.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring/example_25/src/main/java/com/eazybytes/eazyschool/service/ContactService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring/example_48/src/main/java/com/eazybytes/eazyschool/repository/ContactRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/BeanExample/pom.xml">
           <value>
             <set />
@@ -263,6 +308,56 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/e25example/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/e25example/src/main/java/com/eazybytes/eazyschool/EazyschoolApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/e25example/src/main/java/com/eazybytes/eazyschool/config/WebConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/e25example/src/main/java/com/eazybytes/eazyschool/controller/ContactController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/e25example/src/main/java/com/eazybytes/eazyschool/model/Contact.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/e25example/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/e41h2withspringjpa/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/e41h2withspringjpa/src/main/java/com/eazybytes/eazyschool/EazyschoolApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/e41h2withspringjpa/src/main/java/com/eazybytes/eazyschool/aspects/LoggerAspect.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/e41h2withspringjpa/src/main/java/com/eazybytes/eazyschool/model/Contact.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/t1111111/pom.xml">
           <value>
             <set />
@@ -299,6 +394,51 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/untitled/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/OTN/newidl/src/main/java/com/lucent/oms/idl/connEventChan/ConnectionEvent_T.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/OTN/otn-ws/otn-ws-ason/src/main/java/com/nokia/nfmt/ason/service/AsonConnMgmtServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/OTN/otn-ws/otn-ws-ason/src/main/java/com/nokia/nfmt/ason/service/AsonConnectionCreationHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/OTN/otn-ws/otn-ws-controllers/src/main/java/com/alcatel_lucent/oms1350/wdm/webserver/controllers/inventory/cm/LinkConnectionInventoryController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/OTN/otn-ws/otn-ws-wdm/src/main/java/com/alcatel_lucent/oms1350/wdm/appserver/services/connections/browser/NetworkConnectionBrowser.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/OTN/serverapp/src/main/java/com/alcatel_lucent/oms/nwc/nwp/connection/NetworkConnection.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/OTN/serverapp/src/main/java/com/lucent/oms/nwc/common/NcCommon.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/OTN/serverapp/src/main/java/com/lucent/oms/nwc/nwp/connection/NcManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/OTN/serverapp/src/main/java/com/lucent/oms/nwc/top/walker/GenerateConnData.java">
           <value>
             <set />
           </value>
