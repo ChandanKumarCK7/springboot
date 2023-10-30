@@ -3,6 +3,7 @@ package com.eazybytes.eazyschool.repository;
 import com.eazybytes.eazyschool.model.Contact;
 import com.eazybytes.eazyschool.rommappers.ContactRowMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.data.domain.Sort;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.PreparedStatementSetter;
 import org.springframework.stereotype.Repository;
@@ -19,7 +20,7 @@ type to the Spring context and indicate that given Bean is used to perform
 DB related operations and
 * */
 @Repository
-public class ContactRepository {
+public class ContactRepository implements Repo{
 
     private final JdbcTemplate jdbcTemplate;
 
@@ -29,6 +30,7 @@ public class ContactRepository {
     }
 
     public int saveContactMsg(Contact contact){
+        System.out.println("ContactRepository");
         String sql = "INSERT INTO CONTACT_MSG (NAME,MOBILE_NUM,EMAIL,SUBJECT,MESSAGE,STATUS," +
                 "CREATED_AT,CREATED_BY) VALUES (?,?,?,?,?,?,?,?)";
         return jdbcTemplate.update(sql,contact.getName(),contact.getMobileNum(),

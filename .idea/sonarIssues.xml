@@ -8,6 +8,56 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../java/src/main/java8/DesignPatterns/FactoryMethod.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../java/src/main/java8/DesignPatterns/Singleton.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../java/src/main/java8/FunctionalInterface/SAMInterface.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../java/src/main/java8/Streams/FilterAndTheMapping/FilterAndMappingExample.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../java/src/main/java8/Streams/FlatMap/FlatMapOfExample.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../java/src/main/java8/Streams/Others/GroupingBy/GroupingBy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../java/src/main/java8/Streams/Others/Partition/PartitionExample.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../java/src/main/java8/Streams/Partition/PartitionExample.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../java/src/main/java8/Streams/StringOperations.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../java/src/main/java8/Streams/mapReduce/MapReduceExampleToAddNumbersWithoutLambda.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../spring/example1/src/main/java/com/example/beans/Vehicle.java">
           <value>
             <set />
@@ -354,6 +404,36 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/e41h2withspringjpa/src/main/java/com/eazybytes/eazyschool/model/Contact.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/e41h2withspringjpa/src/main/java/com/eazybytes/eazyschool/repository/ContactRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/e41h2withspringjpa/src/main/java/com/eazybytes/eazyschool/repository/ContactRepository1.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/e41h2withspringjpa/src/main/java/com/eazybytes/eazyschool/repository/Repo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/e41h2withspringjpa/src/main/java/com/eazybytes/eazyschool/service/ContactService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/e41h2withspringjpa/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/e41h2withspringjpa/src/main/resources/schema.sql">
           <value>
             <set />
           </value>

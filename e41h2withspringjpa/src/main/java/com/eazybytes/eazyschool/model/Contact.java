@@ -1,10 +1,21 @@
 package com.eazybytes.eazyschool.model;
 
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
+import org.springframework.boot.context.properties.bind.DefaultValue;
+import org.springframework.data.annotation.CreatedBy;
+import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.annotation.LastModifiedBy;
+import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.transaction.annotation.Transactional;
 
 /*
 @Data annotation is provided by Lombok library which generates getter, setter,
@@ -12,8 +23,11 @@ equals(), hashCode(), toString() methods & Constructor at compile time.
 This makes our code short and clean.
 * */
 @Data
+@Entity
+@Table(name="contact_msg")
 public class Contact extends BaseEntity{
 
+    @Id
     private int contactId;
 
     /*
@@ -27,6 +41,7 @@ public class Contact extends BaseEntity{
 
     @NotBlank(message="Mobile number must not be blank")
     @Pattern(regexp="(^$|[0-9]{10})",message = "Mobile number must be 10 digits")
+    @Column(name="mobile_num")
     private String mobileNum;
 
     @NotBlank(message="Email must not be blank")
