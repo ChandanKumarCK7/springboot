@@ -427,4 +427,146 @@ spring.redis.port = 6379
 
 -    start the microservice or ur springboot application.
 
+how to handle exceptions in the spring boot applications
+1- create a global exception class handler and then
+2- define APIs to handle any specific exceptions in them
+
+ex -
+@ControllerAdvice
+public class GlobalExceptionHandler{
+    @ExceptionHandler(NullPointerException.class)
+    public ResponseEntity<String> handleNullPointerException(NullPointerException e){
+        return new ResponseEntity<>("there was a nullpointer exception at "e.getMessage());
+    }
+}
+
+Q- imagine that there is H2 db configuration but u want to override that and create custom data source configuration so how u achieve that
+1- well whatever will be there in application,properties supporting H2 can be ignored by -
+
+just creating like a class of Data source configuration containin DB enpoints and connections then,
+on top of that @SpringBootApplication(exclude = {DataSourceConfiguration.class})
+
+
+Q- Database Transactions: Elaborate on different types of transaction isolation levels in Spring Boot.
+     Discuss scenarios where each isolation level is appropriate and their impact on the database performance.
+
+     1- Read Uncommitted (lowest level) - makes sure that a transaction may read data of another trnasaction that is yet to be committed
+     Ex-
+
+     @Service
+    class UserService{
+        @Transactional(isolation = Isolation.READ_UNCOMMITTED)
+        public void readUncommitedTransaction(){
+
+        }
+    }
+
+    2- Read Committed - a transaction can read data of another transaction only if committed
+
+    @Transactional(isolation = Isolation.READ_COMMITTED)
+
+Q- Advantages and the challenges of using Microservices with SpringBoot
+   1- code will be decentralized so every microservice will have it's own functionality and each can be assigned to person to develop
+    2- if u split application horizontally then u can scale also in future instead of scaling entire application or Monolith,
+
+   u can just scale whatever microservice u want.
+
+   Complexity -
+   Communication between microservice and load balancing can be challenging in real time
+
+Q- How spring will usually provide means to load balancing and communication between microservices.
+communication between the microservices - use Naming server such as netflix Eureka which will take care of microservice discovery
+
+Load balancing- Spring-cloud-starter will take care of that
+
+Q- Distributed Caching: Explain the use of caching in distributed systems.
+     How would you implement and manage caching in a microservices environment using Spring Boot?
+
+step1 - create two beans of Redis and some other cache in Cache Manager class
+step2 - autowire those relating cache beans and on top of service APIs call provide the 'cacheManager' = redis or whatever
+
+@Configuration
+@EnableCaching
+class CacheConfig{
+    @Bean
+    public CacheManager redisCacheManager(){
+        // configuration
+    }
+
+    @Bean
+    public CacheManager guavaCacheManager(){
+        // configuration
+    }
+}
+
+@Service
+class YourService{
+    private CacheManager redisCacheManager;
+    private CacheManager guavaCacheManager;
+
+    private PersonJPARepository personJpaRepo;
+    public YourService(@Autowired CacheManager redis, @Autowired CacheManager guava){
+        this.redisCacheManager = redis;
+        this.guavaCacheManager = guava;
+    }
+
+    public YourService(@Autowired PersonJPARepository personJpaRepo){
+        this.personJpaRepo = personJpaRepo;
+    }
+
+    @Cacheable(cacheManager = "redisCacheManager", value = "Products", key = "#id")
+    public String getDatabyId(String id) {
+        return personJpaRepo.getDataById(id);
+    }
+
+    @Cacheable(cacheManager = "redisCacheManager", value = "Products", key = "#name")
+    public String getDataByName(String name) {
+        return personJpaRepo.getDataByName(name);
+    }
+
+
+
+}
+
+what are the profiles in Spring-Boot and explain how to use them
+Profiles are just proper way to switch between multiple environments accoring to our need
+
+ex - if application can be run in h2 db at Develpment but MongoDb will be used during Deployment then,
+what can be realy used is - create two application properties
+
+1- application.development.properties
+2- application.deployment.properties
+
+then switch between them whenever required in application.properties file with the following key
+spring.profiles.active = deployment
+
+if configurations will be present in java files then how to switch between them
+
+1- create ann interface for base configuration
+2- implement both under that configuration and then just switch to whatever required using @Primary annotation.
+
+Q- how to load properties of application.propeties in java configuration file
+Application.properties -
+
+application.message = "here"
+
+Configuration.java
+
+@Configuration
+@ConfigurationProperties(prefix = "application")
+class AppCOnfig{
+    private String message;
+}
+
+// message will return then - here
+
+
+Q if there will be an annotation setting used at class leveland method level then method level will have more preference or class
+A- Method level
+
+
+
+Q- what is the difference between singleton in java and singleton in spring
+so the gang of four singleton is typical java singleton pattern that provides single instance in entire application of the runtime where as singleton in the spring makes sure that there will be one bean or instance of that class per applicatio context and there can be many application contexts in single application
+
 
