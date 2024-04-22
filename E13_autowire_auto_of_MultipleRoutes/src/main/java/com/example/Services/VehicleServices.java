@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import com.example.beans.Person;
 
 @Component("VehicleServices")
-@Scope(BeanDefinition.SCOPE_SINGLETON)
+@Scope(BeanDefinition.SCOPE_PROTOTYPE)
 public class VehicleServices {
 
 

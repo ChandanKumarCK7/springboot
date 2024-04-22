@@ -569,4 +569,35 @@ A- Method level
 Q- what is the difference between singleton in java and singleton in spring
 so the gang of four singleton is typical java singleton pattern that provides single instance in entire application of the runtime where as singleton in the spring makes sure that there will be one bean or instance of that class per applicatio context and there can be many application contexts in single application
 
+Q- what are the types of dependency injections?
+Construction initialization, Setter Initialization, getter Initialization, Field Initialization
+
+Q- Constructor Initialization or Setter Initialization?
+Partial dependency: can be injected using setter injection but it is not possible by constructor.
+    Suppose there are 3 properties in a class, having 3 arg constructor and setters methods.
+    In such case, if you want to pass information for only one property, it is possible by setter method only.
+Overriding: Setter injection overrides the constructor injection.
+    If we use both constructor and setter injection, IOC container will use the setter injection.
+Changes: We can easily change the value by setter injection.
+    It doesn't create a new bean instance always like constructor. So setter injection is flexible than constructor injection.
+Optional usage: Constructor initialization can be used when you want dependancy to be surely injected because of tight coupling
+    else if the dependency is not mandatory then inject through setter.
+
+Q- so how to solve NoUniqueBeanDefinitionException?
+    that exception means that spring is not able to pick a particular bean because there are several implementations
+    so what can be done is to just use @Primary on one of implementation classes so that spring will use that to create bean
+
+
+Q- What is the simplest way of ensuring that we are using single version of all Spring related dependencies?
+    there is a dependancy knowsn as spring-framework-bom which is spring bills of materials and if that will be used then spring will take care of importing all dependencies
+even if the version tag is not mentioned in pom.xml
+
+Q- what is the difference between IOC, dependancy injection and autowiring
+    IOC is the principle that says flow of progeam is inverted i.e; the responsibility of creating beans is taken care by framework or system instead of user
+    Dpependancy is a design pattern that achieves that
+    autowiring is a mechanism in spring framework that achieves IOC using dependancy injection pattern.
+
+Q- what is the difference between jdbcTemplate and Spring data jpa
+    jdbctemplate is part of spring jdbc that primarily focuses on handling db based on native query written by user and the requirement here is query has to be mandatorily provided
+   spring data on other hand has been implemented in such a way that if u create a method following their naming convention there is no need of writing query
 
